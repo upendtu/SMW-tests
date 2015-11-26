@@ -1,0 +1,1300 @@
+
+body{
+background:#FFF;
+
+}
+
+
+.header{
+background:#00CCFF;
+height:95px;
+width:100%;
+
+margin-top:10px;
+
+}
+.header-bar{
+height:90px;
+width:95%;
+background:#00CCFF;
+margin:auto;
+}
+
+.logo { 
+position: absolute; 
+top: 20px; 
+left: 60px;
+float:left; 
+} 
+.logo img{
+height:75px;
+width:260px;
+margin-top:-5px;
+}
+
+#header-search{
+
+width:50%;
+margin-left:25%;
+margin-right:25%;
+float:left;
+}
+
+#header-search img{
+margin-left:290px;
+height:80px;
+margin-top:3px;
+
+
+}
+
+#header-search input[type="text"]{
+height:30px;
+width:400px;
+margin:1px;
+float:left;
+display:block;
+margin-top:15px;
+}
+
+
+.mypage{
+display:block;
+background:url(../image/men-2.png);
+width:60px;
+height:60px;
+float:right;
+background-repeat:no-repeat;
+background-position:center;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;
+margin-top:-65px;
+margin-right:5px;
+
+}
+
+.mypage img{
+width:60px;
+height:60px;
+background-repeat:no-repeat;
+background-position:center;
+-webkit-border-radius:30px;
+-moz-border-radius:30px;
+border-radius:30px;
+
+}
+
+.diff{
+
+background-size: cover;
+box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+background-size: cover;
+box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	float:right;
+	width:200px;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 2px;
+
+    /****************
+     ** NEW STYLES **
+     ****************/
+
+    list-style: none; /** Remove list bullets */
+    width: 100%; /** Set the width to 100% of it's parent */
+    padding: 0;
+	
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+	z-index:2;
+	margin-top:-16px;
+}
+
+
+/** List Item Styles **/
+.dropdown a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #FFFFFF;
+    color: #333333;
+}
+
+/** List Item Hover Styles **/
+.dropdown a:hover {
+    background:#FF0000;
+}
+
+.image-slider{
+height:500px;
+width:100%;
+margin-top:1px;
+
+}
+#slider img{
+width:100%;
+height:500px;
+border-bottom:2px solid #999999;
+
+}
+
+
+/*
+
+.image-slider{
+background:#FFF;
+overflow:hidden;
+margin-top:15px;
+
+
+
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -30%; }
+45% { left: -50%; }
+/*50% { left: -60%; }
+70% { left: -65%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }*/
+}
+
+/*
+div#slider { 
+overflow: hidden;
+position:relative;
+font-size: 0;
+}
+
+div#slider figure { 
+  position:relative;
+  display:block;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+  
+}
+
+.box{
+height:400px;
+width:480px;
+background:#FFF;
+float:left;
+
+border:3px solid #999999;
+
+}
+.image{
+height:300px;
+width:470px;
+background:#FFF;
+float:left;
+margin:2px;
+
+}
+.image img{
+height:290px;
+width:470px;
+margin:1px;
+}
+.description{
+background:#FFF;
+height:85px;
+width:470px;
+float:left;
+
+}
+
+.description #title ,#desc{
+float:left;
+color:black;
+font-size:15px;
+font-family:"Courier New", Courier, monospace;
+margin:1px;
+
+}*/
+
+/*div#slider figure img { 
+width: 7%;
+height:350px;
+float: left;
+margin:2px;
+}
+
+div#slider figure { 
+  position:relative;
+  display:block;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+  
+}
+
+#slider figure figcaption { 
+  position:absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 6.7%;
+  margin:2px;
+  font-size: 2rem; 
+  padding: .6rem; 
+}
+*/
+
+
+
+
+ 
+
+.main{
+background:#FFF;
+height:1000px;
+width:100%;
+}
+
+.sidebar{
+height:600px;
+width:39%;
+float:left;
+
+}
+
+.sidebar_container{
+position:absolute;
+float: left;
+margin-top:70px;
+margin-left:110px;
+width: 33.2%;
+height:auto;
+padding: 5px;
+
+  }
+  .form{
+  font-size:14px;
+  font-weight:300;
+  font-family:Bell MT;
+  margin-left:300px;
+ 
+  
+  
+ }
+  .select_join {
+  
+    padding: 0;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+	height:45px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+  
+  
+   
+   }
+   
+   .useless{
+   width: 250px;
+   height: 50px;
+   margin:5px;
+   overflow: hidden;
+   background:url(../../image/dropdown_icon.png) no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+
+   -webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 2px 0px 10px 1px #FEFEFE;
+
+ border-radius: 10px;
+  background: transparent;
+   width: 250px;
+   color:grey;
+   border: 1px solid #CCCCCC;
+   height: 50px;
+   -webkit-appearance: none;
+   
+   
+   box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+   
+   }
+.select_join select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+			margin:10px;
+  
+   
+   }
+   .select_join select:focus {
+    outline: none;
+
+}
+
+ .submit{
+ width:180px;
+ height:40px;
+ margin-top:15px;
+ margin-left:30px;
+ font-weight:400;
+ 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+ }
+ 
+ .ad{
+ background:url(../../image/banner.png);
+ background-repeat:no-repeat;
+ width:335px;
+ height:270px;
+ margin-left:302px;
+ background-size:300px 180px;
+  border-top:2px solid #CCCCCC;
+  margin-top:40px;
+  background-position:1px 1px;
+ 
+ }
+
+
+.main-section{
+background:#FFF;
+float:right;
+height:auto;
+width:60%;
+border-left:1px solid #CCCCCC;
+
+
+}
+
+.result-list:hover{
+background-color:#F9F9F9;
+}
+
+.result-list{
+background:#FFF;
+border-bottom:1px solid #CCCCCC;
+height:600px;
+width:850px;
+margin-left:30px;
+margin-top:10px;
+}
+
+.company-logo{
+display:block;
+background:url(../image/cicle.png);
+width:90px;
+height:90px;
+float:left;
+background-repeat:no-repeat;
+background-size:90px 90px;
+background-position:center;
+-webkit-border-radius:45px;
+-moz-border-radius:45px;
+border-radius:45px;
+border:1px thin #000;
+margin:4px;
+
+}
+.company-title{
+margin-left:10px;
+float:left;
+
+}
+.company-title h2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.company-title p{
+font-family:"Bell MT";
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.image-section{
+height:350px;
+width:670px;
+float:left;
+margin-left:100px;
+margin-top:-15px;
+border:2px solid #CCCCCC;
+}
+.company-image{
+height:300px;
+width:670px;
+}
+.company-image img{
+height:310px;
+width:670px;
+}
+.bookmark{
+height:55px;
+width:670px;
+margin-top:2px;
+}
+
+#posted{
+float:left;
+margin-top:22px;
+margin-left:10px;
+font-family:"Bell MT";
+font-weight:400;
+font-size:16px;
+color:#CCCCCC;
+
+}
+#view{
+float:left;
+margin-left:240px;
+margin-top:22px;
+font-family:"Bell MT";
+font-size:16px;
+font-weight:400;
+color:#CCCCCC;
+}
+
+#bkmark{
+float:right;
+margin-right:5px;
+margin-top:12px;
+padding: 5px 10px;
+  font-size: 16px;
+  background:#0099FF;
+  color: #fff;
+  border: 1px solid #0099FF;
+  border-radius: 4px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.description{
+height:60px;
+width:670px;
+float:left;
+margin-left:102px;
+margin-top:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:100;
+font-size:16px;
+}
+
+
+
+/*--media-quaries-starts-here--*/
+
+@media (max-width: 1880px){
+
+
+
+.main{
+background:#FFF;
+height:1000px;
+width:100%;
+}
+
+.sidebar{
+height:600px;
+width:39%;
+float:left;
+
+}
+
+.sidebar_container{
+position:absolute;
+float: left;
+margin-top:70px;
+margin-left:80px;
+width: 33.2%;
+height:auto;
+padding: 5px;
+
+  }
+  .form{
+  font-size:14px;
+  font-weight:300;
+  font-family:Bell MT;
+  margin-left:300px;
+ 
+  
+  
+ }
+  .select_join {
+  
+    padding: 0;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+	height:45px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+  
+  
+   
+   }
+   
+   .useless{
+   width: 250px;
+   height: 50px;
+   margin:5px;
+   overflow: hidden;
+   background:url(../../image/dropdown_icon.png) no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+
+   -webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 2px 0px 10px 1px #FEFEFE;
+
+ border-radius: 10px;
+  background: transparent;
+   width: 250px;
+   color:grey;
+   border: 1px solid #CCCCCC;
+   height: 50px;
+   -webkit-appearance: none;
+   
+   
+   box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+   
+   }
+.select_join select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+			margin:10px;
+  
+   
+   }
+   .select_join select:focus {
+    outline: none;
+
+}
+
+ .submit{
+ width:180px;
+ height:40px;
+ margin-top:15px;
+ margin-left:30px;
+ font-weight:400;
+ 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+ }
+ 
+ .ad{
+ background:url(../../image/banner.png);
+ background-repeat:no-repeat;
+ width:335px;
+ height:270px;
+ margin-left:302px;
+ background-size:300px 180px;
+  border-top:2px solid #CCCCCC;
+  margin-top:40px;
+  background-position:1px 1px;
+ 
+ }
+
+
+.main-section{
+background:#FFF;
+float:right;
+height:auto;
+width:60%;
+border-left:1px solid #CCCCCC;
+
+
+}
+
+.result-list:hover{
+background-color:#F9F9F9;
+}
+
+.result-list{
+background:#FFF;
+border-bottom:1px solid #CCCCCC;
+height:600px;
+width:850px;
+margin-left:30px;
+margin-top:10px;
+}
+
+.company-logo{
+display:block;
+background:url(../image/cicle.png);
+width:90px;
+height:90px;
+float:left;
+background-repeat:no-repeat;
+background-size:90px 90px;
+background-position:center;
+-webkit-border-radius:45px;
+-moz-border-radius:45px;
+border-radius:45px;
+border:1px thin #000;
+margin:4px;
+
+}
+.company-title{
+margin-left:10px;
+float:left;
+
+}
+.company-title h2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.company-title p{
+font-family:"Bell MT";
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.image-section{
+height:350px;
+width:670px;
+float:left;
+margin-left:100px;
+margin-top:-15px;
+border:2px solid #CCCCCC;
+}
+.company-image{
+height:300px;
+width:670px;
+}
+.company-image img{
+height:310px;
+width:670px;
+}
+.bookmark{
+height:55px;
+width:670px;
+margin-top:2px;
+}
+
+#posted{
+float:left;
+margin-top:22px;
+margin-left:10px;
+font-family:"Bell MT";
+font-weight:400;
+font-size:16px;
+color:#CCCCCC;
+
+}
+#view{
+float:left;
+margin-left:240px;
+margin-top:22px;
+font-family:"Bell MT";
+font-size:16px;
+font-weight:400;
+color:#CCCCCC;
+}
+
+#bkmark{
+float:right;
+margin-right:5px;
+margin-top:12px;
+padding: 5px 10px;
+  font-size: 16px;
+  background:#0099FF;
+  color: #fff;
+  border: 1px solid #0099FF;
+  border-radius: 4px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.description{
+height:60px;
+width:670px;
+float:left;
+margin-left:102px;
+margin-top:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:100;
+font-size:16px;
+}
+
+
+}
+
+
+@media (max-width: 1440px){
+
+.main{
+background:#FFF;
+height:1000px;
+width:100%;
+}
+
+.sidebar{
+background:#FFF;
+height:600px;
+width:38%;
+float:left;
+
+}
+
+.sidebar_container{
+position:relative;
+float: left;
+margin-top:70px;
+width: 30%;
+height:auto;
+padding: 5px;
+margin-left:-85px;
+
+  }
+  .form{
+  font-size:14px;
+  font-weight:300;
+  font-family:Bell MT;
+ 
+ 
+  
+  
+ }
+  .select_join {
+  
+    padding: 0;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+	height:45px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+  
+  
+   
+   }
+   
+   .useless{
+   width: 250px;
+   height: 50px;
+   margin:5px;
+   overflow: hidden;
+   background:url(../../image/dropdown_icon.png) no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+
+   -webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 2px 0px 10px 1px #FEFEFE;
+
+ border-radius: 10px;
+  background: transparent;
+   width: 250px;
+   color:grey;
+   border: 1px solid #CCCCCC;
+   height: 50px;
+   -webkit-appearance: none;
+   
+   
+   box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+   
+   }
+.select_join select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+			margin:10px;
+  
+   
+   }
+   .select_join select:focus {
+    outline: none;
+
+}
+
+ .submit{
+ width:180px;
+ height:40px;
+ margin-top:15px;
+ margin-left:30px;
+ font-weight:400;
+ 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+ }
+ 
+ .ad{
+ background:url(../../image/banner.png);
+ background-repeat:no-repeat;
+ width:335px;
+ height:270px;
+ margin-left:302px;
+ background-size:300px 180px;
+  border-top:2px solid #CCCCCC;
+  margin-top:40px;
+  background-position:1px 1px;
+ 
+ }
+
+
+.main-section{
+background:#FFF;
+float:right;
+height:auto;
+width:60%;
+border-left:1px solid #CCCCCC;
+
+
+}
+
+.result-list:hover{
+background-color:#F9F9F9;
+}
+
+.result-list{
+background:#FFF;
+border-bottom:1px solid #CCCCCC;
+height:570px;
+width:800px;
+margin-left:20px;
+margin-top:10px;
+}
+
+.company-logo{
+display:block;
+background:url(../image/cicle.png);
+width:90px;
+height:90px;
+float:left;
+background-repeat:no-repeat;
+background-size:90px 90px;
+background-position:center;
+-webkit-border-radius:45px;
+-moz-border-radius:45px;
+border-radius:45px;
+border:1px thin #000;
+margin:4px;
+
+}
+.company-title{
+margin-left:10px;
+float:left;
+
+}
+.company-title h2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.company-title p{
+font-family:"Bell MT";
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.image-section{
+height:350px;
+width:670px;
+float:left;
+margin-left:100px;
+margin-top:-15px;
+border:2px solid #CCCCCC;
+}
+.company-image{
+height:300px;
+width:670px;
+}
+.company-image img{
+height:310px;
+width:670px;
+}
+.bookmark{
+height:55px;
+width:670px;
+margin-top:2px;
+}
+
+#posted{
+float:left;
+margin-top:22px;
+margin-left:10px;
+font-family:"Bell MT";
+font-weight:400;
+font-size:16px;
+color:#CCCCCC;
+
+}
+#view{
+float:left;
+margin-left:240px;
+margin-top:22px;
+font-family:"Bell MT";
+font-size:16px;
+font-weight:400;
+color:#CCCCCC;
+}
+
+#bkmark{
+float:right;
+margin-right:5px;
+margin-top:12px;
+padding: 5px 10px;
+  font-size: 16px;
+  background:#0099FF;
+  color: #fff;
+  border: 1px solid #0099FF;
+  border-radius: 4px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.description{
+height:60px;
+width:670px;
+float:left;
+margin-left:102px;
+margin-top:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:100;
+font-size:16px;
+}
+
+}
+@media (max-width: 1366px){
+
+
+.main{
+background:#FFF;
+height:1000px;
+width:100%;
+}
+
+.sidebar{
+background:#FFF;
+height:600px;
+width:38%;
+float:left;
+
+}
+
+.sidebar_container{
+position:relative;
+float: left;
+margin-top:70px;
+width: 30%;
+height:auto;
+padding: 5px;
+margin-left:-115px;
+
+  }
+  .form{
+  font-size:14px;
+  font-weight:300;
+  font-family:Bell MT;
+ 
+ 
+  
+  
+ }
+  .select_join {
+  
+    padding: 0;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+	height:45px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 90% 50%;
+  
+  
+   
+   }
+   
+   .useless{
+   width: 250px;
+   height: 50px;
+   margin:5px;
+   overflow: hidden;
+   background:url(../../image/dropdown_icon.png) no-repeat right #FEFEFE;
+   border: #FEFEFE 1px solid;
+
+   -webkit-border-radius: 3px;
+border-radius: 3px;
+-webkit-box-shadow: inset 0px 0px 10px 1px #FEFEFE;
+box-shadow: inset 2px 0px 10px 1px #FEFEFE;
+
+ border-radius: 10px;
+  background: transparent;
+   width: 250px;
+   color:grey;
+   border: 1px solid #CCCCCC;
+   height: 50px;
+   -webkit-appearance: none;
+   
+   
+   box-shadow:0 3px 2px rgba(0,0,0,0.3);
+
+   
+   }
+.select_join select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+			margin:10px;
+  
+   
+   }
+   .select_join select:focus {
+    outline: none;
+
+}
+
+ .submit{
+ width:180px;
+ height:40px;
+ margin-top:15px;
+ margin-left:30px;
+ font-weight:400;
+ 
+-webkit-border-radius: 5px;
+border-radius: 5px;
+
+ }
+ 
+ .ad{
+ background:url(../../image/banner.png);
+ background-repeat:no-repeat;
+ width:335px;
+ height:270px;
+ margin-left:302px;
+ background-size:300px 180px;
+  border-top:2px solid #CCCCCC;
+  margin-top:40px;
+  background-position:1px 1px;
+ 
+ }
+
+
+.main-section{
+background:#FFF;
+float:right;
+height:auto;
+width:60%;
+border-left:1px solid #CCCCCC;
+
+
+}
+
+.result-list:hover{
+background-color:#F9F9F9;
+}
+
+.result-list{
+background:#FFF;
+border-bottom:1px solid #CCCCCC;
+height:540px;
+width:750px;
+margin-left:20px;
+margin-top:10px;
+}
+
+.company-logo{
+display:block;
+background:url(../image/cicle.png);
+width:90px;
+height:90px;
+float:left;
+background-repeat:no-repeat;
+background-size:90px 90px;
+background-position:center;
+-webkit-border-radius:45px;
+-moz-border-radius:45px;
+border-radius:45px;
+border:1px thin #000;
+margin:4px;
+
+}
+.company-title{
+margin-left:10px;
+float:left;
+
+}
+.company-title h2{
+font-family:Arial, Helvetica, sans-serif;
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.company-title p{
+font-family:"Bell MT";
+font-size:22px;
+font-style:normal;
+font-weight:200;
+}
+
+.image-section{
+height:350px;
+width:600px;
+float:left;
+margin-left:100px;
+margin-top:-15px;
+border:2px solid #CCCCCC;
+}
+.company-image{
+height:280px;
+width:600px;
+}
+.company-image img{
+height:280px;
+width:600px;
+}
+.bookmark{
+height:55px;
+width:600px;
+margin-top:2px;
+}
+
+#posted{
+float:left;
+margin-top:22px;
+margin-left:10px;
+font-family:"Bell MT";
+font-weight:400;
+font-size:16px;
+color:#CCCCCC;
+
+}
+#view{
+float:left;
+margin-left:240px;
+margin-top:22px;
+font-family:"Bell MT";
+font-size:16px;
+font-weight:400;
+color:#CCCCCC;
+}
+
+#bkmark{
+float:right;
+margin-right:5px;
+margin-top:12px;
+padding: 5px 10px;
+  font-size: 16px;
+  background:#0099FF;
+  color: #fff;
+  border: 1px solid #0099FF;
+  border-radius: 4px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .2);
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+.description{
+height:60px;
+width:600px;
+float:left;
+margin-left:102px;
+margin-top:5px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:100;
+font-size:16px;
+}
+}
+
+
+
